@@ -1,0 +1,9 @@
+body {
+	background-color: #f1f3f4;
+	font-family: 'Heebo', sans-serif;
+	color: #202124;
+}
+::selection {
+    background: #f76A71;
+    color: #f1f3f4;
+}
