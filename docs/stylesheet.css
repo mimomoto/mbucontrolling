@@ -1,26 +1,47 @@
-body 
+html, body 
 	{
-	background-color: #f1f3f4;
-	font-family: 'Heebo', sans-serif;
-	color: #121a2b;
+		padding: 0px;
+		margin: 0px;
+		background-color: #f1f3f4;
+		font-family: 'Heebo', sans-serif;
+		color: #121a2b;
+	}
+h1, h2, h3, h4, h5, h6
+	{
+		margin: 0px;
+		padding: 0px;
 	}
 ::selection 
 	{
-    background: #f76A71;
-    color: #f1f3f4;
+	    background: #f76A71;
+	    color: #f1f3f4;
+	}
+header
+	{
+		position: fixed;
 	}
 .logo 
 	{
-	background-image: url("logo_controlling_m.png");
-	width: 400px;
-	height: 123px;
-	text-indent: -10000px;
+		background-image: url("logo_controlling_m.png");
+		width: 400px;
+		height: 123px;
+		text-indent: -10000px;
 	}
-
 .hero
 	{
+		height: 100vh;
 		width: 100%;
 		text-align: center;
 		background-image: url("hero.jpg");
-
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
+
+
+
+
+
+
+
