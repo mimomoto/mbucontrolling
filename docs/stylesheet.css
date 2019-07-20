@@ -1,9 +1,26 @@
-body {
+body 
+	{
 	background-color: #f1f3f4;
 	font-family: 'Heebo', sans-serif;
-	color: #202124;
-}
-::selection {
+	color: #121a2b;
+	}
+::selection 
+	{
     background: #f76A71;
     color: #f1f3f4;
-}
+	}
+.logo 
+	{
+	background-image: url("logo_controlling_m.png");
+	width: 400px;
+	height: 123px;
+	text-indent: -10000px;
+	}
+
+.hero
+	{
+		width: 100%;
+		text-align: center;
+		background-image: url("hero.jpg");
+
+	}
