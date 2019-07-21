@@ -1,10 +1,17 @@
+*
+	{
+		box-sizing: border-box;
+	}
+
 html, body 
 	{
 		padding: 0px;
 		margin: 0px;
 		background-color: #f1f3f4;
 		font-family: 'Heebo', sans-serif;
+		font-size: 16pt;
 		color: #121a2b;
+		line-height: 1.7;
 	}
 h1, h2, h3, h4, h5, h6
 	{
@@ -37,6 +44,7 @@ header
 		background-image: url("hero.jpg");
 		background-size: cover;
 		background-attachment: fixed;
+		background-position: center center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -44,7 +52,36 @@ header
 		font-size: 150%;
 		text-shadow: 2px 2px 20px rgba(0,0,0,0.9);
 	}
+.intro
+	{
+		text-align: center;
+		width: 100%;
+		max-width: 1175px;
+		margin: auto;
+		padding-top: 3em;
+		padding-bottom: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 
+.icon
+	{
+		margin-right: 0.5em;
+		margin-left: 0.5em;
+	}
+
+.card
+	{
+		margin: auto;
+		width: 100%;
+		max-width: 1175px;
+	}
+
+.card h3
+	{
+		text-align: center;
+
+	}
 
 
 
