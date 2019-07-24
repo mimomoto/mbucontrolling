@@ -9,3 +9,4 @@ cp src/hero.jpg docs/hero.jpg
 cp src/cfo.jpg docs/cfo.jpg
 cp src/mag-martin-buchegger.jpg docs/mag-martin-buchegger.jpg
 cp src/martin-buchegger-peter-voithofer.jpg docs/martin-buchegger-peter-voithofer.jpg
+cp src/favicon.ico docs/favicon.ico
