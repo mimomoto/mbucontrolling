@@ -72,18 +72,18 @@ header
 		flex-direction: column;
 		justify-content: center;
 		color: #ffffff;
-		font-size: 150%;
 		line-height: 2;
 		letter-spacing: 0.14em;
 	}
 
-.hero span {
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.1em;
-	padding-bottom: 0.1em;
-	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.295);
-}
+.hero span 
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.295);
+	}
 
 .hero-small
   {
@@ -95,10 +95,15 @@ header
 		color: #ffffff;
   }
 
+.bigbox
+	{
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+
 p
-  {
-	  min-width: 250px;
-  }
+	{
+		min-width: 250px;
+	}
 
 .intro
 	{
@@ -119,7 +124,7 @@ p
 	}
 
 .cards
-  {
+	{
 		margin: auto;
 		display: flex;
 		flex-wrap: wrap;
@@ -127,7 +132,7 @@ p
 		padding-top: 2em;
 		padding-left: 1em;
 		padding-right: 1em;
-  }
+	}
 
 .card
 	{
