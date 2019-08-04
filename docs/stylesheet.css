@@ -14,17 +14,20 @@ html, body
 		color: #121a2b;
 		line-height: 1.7;
 	}
+
 h1, h2, h3, h4, h5, h6
 	{
 		font-weight: 700;
 		margin: 0px;
 		padding: 0px;
 	}
+
 ::selection
 	{
-	    background: #f76A71;
-	    color: #f1f3f4;
+		background: #f76A71;
+		color: #f1f3f4;
 	}
+
 header
 	{
 		position: fixed;
@@ -34,6 +37,7 @@ header
 		justify-content: space-around;
 		flex-wrap: wrap;
 	}
+
 .logo 
 	{
 		background-image: url("logo_controlling_m.png");
@@ -86,14 +90,14 @@ header
 	}
 
 .hero-small
-  {
+	{
 		width: 100%;
 		padding-top: 203px;
 		padding-bottom: 1em;
 		text-align: center;
 		background-color: #7393B6;
 		color: #ffffff;
-  }
+	}
 
 .bigbox
 	{
@@ -143,7 +147,7 @@ p
 	}
 
 .text
-  {
+	{
 		width: 100%;
 		max-width: 1175px;
 		margin: auto;
@@ -181,7 +185,6 @@ img
 	{
 		width: 100%;
 	}
-
 
 a, a:link, a:active, a:visited
 	{
