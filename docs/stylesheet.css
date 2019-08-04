@@ -49,7 +49,7 @@ header
 
 .menu
 	{
-		min-width: 500px;
+		min-width: 150px;
 	}
 
 .menu a
@@ -80,7 +80,7 @@ header
 		letter-spacing: 0.14em;
 	}
 
-.hero span 
+.hero span
 	{
 		padding-left: 1em;
 		padding-right: 1em;
@@ -141,7 +141,7 @@ p
 .card
 	{
 		margin: auto;
-		min-width: 380px;
+		min-width: 280px;
 		width: 50%;
 		padding-bottom: 2em;
 	}
@@ -170,7 +170,7 @@ p
 	{
 		margin: auto;
 		width: 50%;
-		min-width: 650px;
+		min-width: 30%;
 		padding: 30px;
 	}
 
@@ -221,4 +221,91 @@ footer p
 	{
 		flex: 1;
 		text-align: center;
+	}
+
+.hide-sm
+	{
+		display: block;
+	}
+
+.show-sm
+	{
+		display: none;
+	}
+
+@media all and (max-width: 699px)
+	{
+		header
+			{
+				position: relative;
+			}
+
+		header a
+			{
+				width: 100%;
+			}
+
+		.menu a
+			{
+				margin-top: 0;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+
+		.logo
+			{
+				transform: scale(0.8) translateX(-13px);
+			}
+
+		.hero
+			{
+				background-image: none;
+				height: auto;
+			}
+
+		.hero-small
+			{
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+		.intro
+			{
+				text-align: left;
+			}
+
+		.card
+			{
+				min-width: 100%;
+			}
+
+		.profile div
+			{
+				width: 100%;
+			}
+
+		footer
+			{
+				padding: 0.8em;
+			}
+
+		footer p
+			{
+				text-align: left;
+			}
+
+		.hide-sm
+			{
+				display: none;
+			}
+
+		.show-sm
+			{
+				display: block;
+			}
+
+		/* Hack because .hide-sm does not work? */
+		.bigbox h1:first-child {
+			display: none;
+		}
 	}
