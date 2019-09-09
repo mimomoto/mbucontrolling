@@ -99,11 +99,6 @@ header
 		color: #ffffff;
 	}
 
-.bigbox
-	{
-		background-color: rgba(255, 255, 255, 0.7);
-	}
-
 p
 	{
 		min-width: 250px;
@@ -121,10 +116,41 @@ p
 		padding-right: 1em;
 	}
 
+.intro-columns
+	{
+		width: 100%;
+		display: flex;
+		text-align: left;
+		margin-top: 30px;
+	}
+.intro-columns-right
+	{
+		width: 45%;
+		margin-left: 30px;
+	}
+.intro-columns-right em
+	{
+		font-weight: 700;
+		font-style: normal;
+		color: #3c4f63;
+	}
+
+.intro-columns-right i
+	{
+		font-style: normal;
+		margin-left: 15px;
+		display: block;
+	}
+
 .icon
 	{
 		margin-right: 0.5em;
 		margin-left: 0.5em;
+	}
+
+.cards-intro
+	{
+		text-align: center;
 	}
 
 .cards
@@ -165,13 +191,22 @@ p
 		display: flex;
 		flex-wrap: wrap;
 	}
+.profile-photo
+	{
+		width: 45% !important;
+	}
 
 .profile div
 	{
 		margin: auto;
-		width: 50%;
+		width: 55%;
 		min-width: 30%;
 		padding: 30px;
+	}
+
+.blue
+	{
+		color: #384e64;
 	}
 
 img
