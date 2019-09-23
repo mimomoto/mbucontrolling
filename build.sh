@@ -5,6 +5,7 @@ mkdir docs
 
 cat src/header.html src/index.html src/footer.html > docs/index.html
 cat src/header.html src/ueber-uns.html src/footer.html > docs/ueber-uns.html
+cat src/header.html src/impressum.html src/footer.html > docs/impressum.html
 
 cp src/stylesheet.css docs/stylesheet.css
 cp src/img/logo_controlling_m.png docs/logo_controlling_m.png
