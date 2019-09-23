@@ -13,6 +13,10 @@ html, body
 		font-weight: 400;
 		color: #121a2b;
 		line-height: 1.7;
+		background-image: url("hero.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 h1, h2, h3, h4, h5, h6
@@ -32,7 +36,7 @@ header
 	{
 		position: fixed;
 		width: 100%;
-		background-color: rgba(255,255,255,0.8);
+		background-color: rgba(255,255,255,0.9);
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
@@ -67,11 +71,6 @@ header
 		height: 100vh;
 		width: 100%;
 		text-align: center;
-		background-color: #7393B6;
-		background-image: url("hero.jpg");
-		background-size: cover;
-		background-attachment: fixed;
-		background-position: center center;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -95,8 +94,13 @@ header
 		padding-top: 203px;
 		padding-bottom: 1em;
 		text-align: center;
-		background-color: #7393B6;
+		background-color: rgba(115, 147, 182, 0.92);
 		color: #ffffff;
+	}
+
+.main
+	{
+		background-color: rgba(241, 243, 244, 0.92);
 	}
 
 p
@@ -120,13 +124,14 @@ p
 	{
 		width: 100%;
 		display: flex;
+		flex-wrap: wrap;
 		text-align: left;
 		margin-top: 50px;
 	}
 .intro-columns-right
 	{
-		width: 45%;
-		margin-left: 48px;
+		width: 36%;
+		margin-left: 90px;
 		margin-top: 35px;
 	}
 .intro-columns-right em
@@ -152,6 +157,7 @@ p
 .cards-intro
 	{
 		text-align: center;
+		padding: 20px;
 	}
 
 .cards
@@ -171,6 +177,8 @@ p
 		min-width: 280px;
 		width: 50%;
 		padding-bottom: 2em;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 
 .card-last
@@ -216,17 +224,16 @@ p
 	}
 .profile-photo
 	{
-		width: 45% !important;
+		width: 45%;
 	}
 .profile-cv
 	{
-		width: 55% !important;	
+		width: 55%;
 	}
 
 .profile div
 	{
 		margin: auto;
-		width: 50%;
 		min-width: 30%;
 		padding: 30px;
 	}
@@ -261,7 +268,7 @@ a:hover
 
 footer
 	{
-		background-color: rgb(20, 28, 44);
+		background-color: rgb(20, 28, 44, 0.95);
 		color: rgb(181, 181, 189);
 		padding: 3em;
 		display: flex;
@@ -336,9 +343,24 @@ footer p
 				text-align: left;
 			}
 
+		.intro-columns-right
+			{
+				width: 100%;
+			}
+
 		.card
 			{
 				min-width: 100%;
+			}
+
+		.card-last
+			{
+				text-align: left;
+			}
+
+		.card-last p
+			{
+				text-align: left;
 			}
 
 		.profile div
@@ -354,6 +376,8 @@ footer p
 		footer p
 			{
 				text-align: left;
+				width: 100%;
+				flex: none;
 			}
 
 		.hide-sm
